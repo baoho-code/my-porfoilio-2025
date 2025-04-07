@@ -854,6 +854,13 @@ left: 80%}
 	margin-top: 50px;
 	padding: 0 20px;
 }
+.lienhe2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	padding: 0 20px;
+}
 .social-net a i{
 	color: #527498;
 }
@@ -893,4 +900,28 @@ left: 80%}
 .skill{ margin-top: 170px}
 	#myAva{ padding-top: 30px}
 	.hardskill{ margin-top: 150px}
+}
+@media screen and (min-width:1920px){
+	body{ font-size: 1.5em}
+	h1{font-size: 2.75em}
+	h2{font-size: 2.5em}
+	h3{font-size: 2.25em}
+	h4{font-size: 2em}
+	h5{font-size: 1.75em}
+	section{min-height:600px; margin:10rem 0}
+	.knm-icon img{min-width: 250px; position:absolute; top:-40px; margin-left: 100px}
+	.hardskill{ margin-top: 170px}
+	.knc-1 img{ width:70%}
+	.knc-icon img{min-width: 250px}
+	.proj { margin-top: 250px; transform: scale(1.7)}
+	.proj ul{ transform: scale(0.6)}
+	.bg-lienhe img{width: 280px}
+	.lh-img3{width: 280px;
+transform: rotate(20deg);
+position: absolute;
+z-index: 1;
+top: 75%;
+left: 80%}
+	.bg-lienhe{margin: 50px 0}
+	.btn-info { font-size: 1.5rem}
 }
